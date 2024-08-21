@@ -38,8 +38,8 @@ pip-delete-this-directory.txt
 
 
 # Dump file don't want in repo
-sale_data.txt
-SaleData.pdf
+*.txt
+*.pdf
 *.xlsx
 *.csv
 
