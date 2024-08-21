@@ -53,8 +53,8 @@ def save_table_data_to_text(table_data, output_path):
 
 
 # Example usage
-pdf_path = '/da/da/da/dsa.pdf'
-output_path = 'dsad/ada/table_data.txt'
+pdf_path = 'durham_courses.pdf'
+output_path = 'durham_courses_data.txt'
 
 data = extract_table_data(pdf_path)
 if data:
