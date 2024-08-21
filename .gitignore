@@ -40,6 +40,8 @@ pip-delete-this-directory.txt
 # Dump file don't want in repo
 sale_data.txt
 SaleData.pdf
+*.xlsx
+*.csv
 
 
 # Unit test / coverage reports
