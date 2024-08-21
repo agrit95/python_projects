@@ -33,8 +33,8 @@ def extract_table_data(pdf_path):
                         for col_index in range(col_count):
                             data = table.GetText(row_index, col_index)
                             row_data.append(data.strip())
-                            table_data.append("  ".join(row_data))
-                        table_data.append('\n')
+                        table_data.append("  ".join(row_data))  # Join the row data and add it to table_data
+                    table_data.append('\n')  # Add a newline character after each row
         return table_data
 
     except Exception as e:
@@ -53,8 +53,8 @@ def save_table_data_to_text(table_data, output_path):
 
 
 # Example usage
-pdf_path = 'durham_courses.pdf'
-output_path = 'durham_courses_data.txt'
+pdf_path = 'SaleData.pdf'
+output_path = 'sale_data.txt'
 
 data = extract_table_data(pdf_path)
 if data:

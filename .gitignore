@@ -36,6 +36,10 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
+# Dump file don't want in repo
+sale_data.txt
+SaleData.pdf
+
 # Unit test / coverage reports
 htmlcov/
 .tox/
