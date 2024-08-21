@@ -3,7 +3,7 @@ import shutil
 from pathlib import Path
 
 # Define the directory to organize
-DIRECTORY_TO_ORGANIZE = Path("C:\\Users\\agrit\\Downloads\\dump")
+DIRECTORY_TO_ORGANIZE = Path("C:\\Users\\agrit\\Downloads\\Python\\Dump")
 
 # Define categories and corresponding file extensions
 FILE_CATEGORIES = {
